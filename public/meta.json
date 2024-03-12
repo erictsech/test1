@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "type": "data_connector",
+  "extraData": {
+    "disabledPeriodicSync": false,
+    "dataSourceConfigUiUri": "https://integration-test-demo.feishu-base.repl.co",
+    "initWidth": 520,
+    "initHeight": 300
+  },
+  "protocol": {
+    "type": "http",
+    "httpProtocol": {
+      "uris": [{
+        "type": "tableMeta",
+        "uri": "/api/table_meta"
+      },{
+        "type": "records",
+        "uri": "/api/records"
+      }]
+    }
+  }
+}
