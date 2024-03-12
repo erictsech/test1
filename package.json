@@ -11,13 +11,13 @@
   "dependencies": {
     "@base-open/connector-api": "https://lf9-static.bytednsdoc.com/obj/eden-cn/jjjpceh7nulojvhj/@base-open-connector-api-0.1.0-alpha.2.tgz",
     "@base-open/web-api": "https://lf3-static.bytednsdoc.com/obj/eden-cn/jjjpceh7nulojvhj/base-open-web-api-0.2.0-alpha.11.tgz",
-    "@douyinfe/semi-foundation": "^2.38.2",
-    "@douyinfe/semi-ui": "^2.38.2",
+    "@douyinfe/semi-foundation": "2.38.2",
+    "@douyinfe/semi-ui": "2.38.2",
     "crypto": "^1.0.1",
-    "next": "^13.4.9",
-    "react": "^18.2.0",
+    "next": "13.4.9",
+    "react": "18.2.0",
     "react-dom": "18.2.0",
-    "reset-css": "^5.0.1"
+    "reset-css": "5.0.1"
   },
   "devDependencies": {
     "@types/node": "20.4.0",
